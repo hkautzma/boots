@@ -1,13 +1,10 @@
-body {
-   background: rgb(30, 30, 30);
-}
 .header {
     position:fixed;
     width: 100%;
     z-index: 2;
 }
 .nav-link {
-    color: white;
+    color: rgb(5, 66, 31);
 }
 .jumbotron {
     padding-top: 15%;
@@ -16,7 +13,7 @@ body {
     background-image: url("../images/Untitled\ design.jpg"); 
     background-size: cover;
     background-repeat: no-repeat;
-    color: white;
+    text-shadow: black;
 }
 .cards {
     padding-top: 1%;
@@ -26,6 +23,10 @@ body {
     z-index:1;
 }
 #shop {
-    color: white;
+    padding-top: 4%;
+    color: black;
     padding-left: 4%;
+}
+.accordion {
+    padding: 4%;
 }
